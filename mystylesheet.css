@@ -1,0 +1,213 @@
+#navBar {
+    height: 45px;
+    background-color: #5e5d5d;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    /*border-bottom: solid;
+    border-bottom-color: #56B269;*/
+	}
+
+	li{float: right;
+		position: relative;
+		bottom: 70px;
+		right: 15px;
+	}
+	ul.topBarInfo{list-style-type: none;
+				  font-family: Helvetica;
+				  /*overflow: hidden;*/ /*look up overflow and see what it does*/
+	}
+	li a{padding: 15px;
+		text-decoration: none; /*removes underline from links*/
+		color: white;
+		display: block; 
+	}
+	body{padding: 0;
+		 margin: 0;
+		 /*font-family: "tisa-pro", Georgia, serif;*/
+	}
+	.pseudoLogo{color: #FFA6F1;
+				font-family: Baskerville, "Baskerville Old Face", "Goudy Old Style", Garamond, "Times New Roman", serif;}
+	@media only screen and (max-width: 500px){
+				.pseudoLogo{position: relative;
+							right: 90px;
+
+				} 
+				
+			}
+
+	#backgr{background-image:url("https://s-media-cache-ak0.pinimg.com/originals/94/6c/bb/946cbb6d12895a95cb3d2aa192bc8938.jpg");
+			height: 800px;
+			width: 100%;
+			background-attachment: fixed; /*parallax for bg image*/
+    		background-position: center;
+    		background-repeat: no-repeat;
+    		background-size: cover;
+
+			}
+
+			@media only screen and (max-width: 500px){ 
+				#backgr{background-image:url("https://s-media-cache-ak0.pinimg.com/originals/94/6c/bb/946cbb6d12895a95cb3d2aa192bc8938.jpg");
+			/*background-size: cover;*/
+			width: 100%;
+			height: 600px;
+				}
+			}
+	/*.container{padding: px;
+
+	}*/
+	.descr{padding: 15px;
+		   /*font-family: "tisa-pro", Georgia, serif;*/
+		   text-align: left;
+		   position: relative;
+		   bottom: 25px;
+		   right: 20px;
+		   font: 600 15px/23px "circular-std", sans-serif;
+		   
+	}
+	
+	.contentBox{/*background-color: #F7F7F7;*/
+		border: none;
+		
+		/*width: 355px;*/
+		/*height: 470px;*/
+		/*float: left;*/
+		display: inline-block;
+		margin: 40px 20px 40px 20px;
+		padding: 10px;
+		/*border-bottom: solid;
+		border-bottom-color: #60CCCF;*/
+    	
+
+	}
+	.contentBox:hover {box-shadow: 0 0 11px rgba(33,33,33,.2); 
+	}
+	
+	
+	
+	h6{float:right;
+	}
+	.date{padding-bottom: 30px;
+		  font: 18px/26px "circular-std", sans-serif;
+		  color: #9b9b9b;
+
+	}
+	.middle{background-image: url("https://i.pinimg.com/originals/3b/b5/13/3bb513531f5ca949d424e4dcddce4d06.jpg");
+			height: 900px;
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed; /*fixes image in its position*/
+	}
+	@media only screen and (max-width: 500px){ 
+			.middle{background-image: url("https://i.pinimg.com/originals/3b/b5/13/3bb513531f5ca949d424e4dcddce4d06.jpg");
+			width: 100%;
+			height: 600px;
+			}
+	}
+	.inner{color: #1294B4;
+
+	}
+
+	/*.dateleft{position:relative;
+			  right: 130px;
+			  bottom: 20px;
+	}*/
+	/*.authorright{position:relative;
+				 right: 3px;
+				 bottom: 20px;
+	}*/
+	/*.readmore{position:relative;
+			  right: 258px;
+			  bottom: 15px;
+	}*/
+	.postImage{position: relative;
+			   right: 10px;
+			   bottom: 10px;
+	}
+	#navBarLogo{position: relative;
+				bottom: 12px;
+				/*left: 43%;*/
+				text-align: center;
+	}
+	.videos{width: 100%;
+			height: 400px;
+			/*background-color: #BBBBBB;*/
+			/*background-image: url("https://media1.giphy.com/media/11tflzvYX9Pxe0/giphy.gif");*/
+			background-image: url("https://media.giphy.com/media/eJgp3Dgp65KMg/giphy.gif");
+			/*background-repeat: no-repeat;*/
+			float: left;
+			z-index: -1;
+			border-top: solid;
+			border-top-color: #72BDD3;
+			border-bottom: solid;
+			border-bottom-color: #D39772;
+			/*padding-left: 100px;*/
+	}
+	@media only screen and (max-width: 1227px){ 
+				.videos{width: 100%;
+			height: 400px;
+			background-color: #BBBBBB;
+			float: left;
+			z-index: -1;
+			border-top: solid;
+			border-top-color: #72BDD3;
+			border-bottom: solid;
+			border-bottom-color: #D39772;
+			padding-bottom: 30px;
+				}
+	}
+
+	#footer {
+  			background: #5e5d5d;
+  			width: 100%;
+  			height: 100px;
+  			bottom: 0;
+  			left: 0;
+	}
+	.contentBoxFooter{background-image: url("http://andthenshe.co.uk/wp/wp-content/uploads/2016/05/kimberley-chan_160530_yayoikusama_10.jpg");
+		width: 100%;
+		/*height: 470px;*/
+		float: left;
+		/*margin: 40px 20px 40px 20px;*/
+		padding: 10px;
+		/*border-bottom: solid;
+		border-bottom-color: #60CCCF;*/
+		z-index: -1;
+    	
+	}
+	.fa {
+		display: flex;
+  		padding: 20px;
+  		font-size: 30px;
+  		width: 40px;
+  		text-align: center;
+  		text-decoration: none;
+  		margin: 5px 2px;
+ 		/* border-right: solid;
+  		border-right-color: white;*/
+ 		/* border-radius: 50%;*/
+ 
+	}
+	.fa:hover {
+    opacity: 0.7;
+	}
+	.fa-facebook {
+  /*background: #3B5998;*/
+   color: white;
+   border-right: solid;
+   border-right-color: #FFA6F1;
+	}
+	.fa-twitter {
+  /*background: #55ACEE;*/
+   color: white;
+   border-right: solid;
+   border-right-color: #1294B4;
+	}
+	.fa-instagram {
+  /*background: #125688;*/
+   color: white;
+   border-right: solid;
+   border-right-color: #72D39B;
+	}
